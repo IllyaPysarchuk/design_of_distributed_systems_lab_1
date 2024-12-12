@@ -124,10 +124,3 @@ docker-compose down
   docker-compose logs nginx
   ```
 
----
-
-## Примітки
-
-1. **Зміна портів**:
-   - Якщо порт 90 зайнятий, змініть його в `docker-compose.yml` для сервісу NGINX.
-
