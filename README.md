@@ -49,8 +49,8 @@
    ```
 
 3. **Перевірка доступності сервісів**:
-   - **Consumer**: [http://localhost:90/consumer/process](http://localhost:90/consumer/process)
-   - **Provider**: [http://localhost:90/provider/calculate](http://localhost:90/provider/calculate)
+   - **Consumer**: [http://localhost/consumer/process](http://localhost/consumer/process)
+   - **Provider**: [http://localhost/provider/calculate](http://localhost/provider/calculate)
 
 > **Примітка:** NGINX маршрутизує запити через `/consumer/` та `/provider/` до відповідних бекендів.
 
@@ -59,7 +59,7 @@
 ## Як використовувати API
 
 ### Provider API
-- **URL:** `http://localhost:90/provider/calculate`
+- **URL:** `http://localhost/provider/calculate`
 - **Метод:** `POST`
 - **Body (JSON):**
   ```json
@@ -76,7 +76,7 @@
   ```
 
 ### Consumer API
-- **URL:** `http://localhost:90/consumer/process`
+- **URL:** `http://localhost/consumer/process`
 - **Метод:** `POST`
 - **Body (JSON):**
   ```json
